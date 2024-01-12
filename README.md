@@ -10,4 +10,4 @@
 
 ### View Project and concepts I have learned
 
-1. {Cat Photo App} (https://giggscatphotoapp.netlify.app/)
+1. [Cat Photo App] (https://giggscatphotoapp.netlify.app/)
