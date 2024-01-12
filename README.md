@@ -7,3 +7,7 @@
 - Build a cat photo app to learn the basics of HTML and CSS.
 - Learn modern techniques like CSS variables by building a penguin, and best practices for accessibility by building a quiz site.
 - Learn how to make webpages that respond to different screen sizes by building a photo gallery with Flexbox, and a magazine article layout with CSS Grid.
+
+### View Project and concepts I have learned
+
+1. {Cat Photo App} (https://giggscatphotoapp.netlify.app/)
