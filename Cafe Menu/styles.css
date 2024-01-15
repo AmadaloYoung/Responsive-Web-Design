@@ -64,7 +64,6 @@ h2 {
 .price {
   text-align: right;
   width: 25%;
-  display: inline-block;
 }
 
 .item p {
