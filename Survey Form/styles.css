@@ -1,0 +1,42 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+  background-color: #7b99b7;
+  color: white;
+}
+
+h1,
+p {
+  text-align: center;
+}
+form {
+  background-color: #5b7fa4;
+}
+
+fieldset {
+  margin: 2px;
+}
+
+label {
+  display: block;
+  margin: 5px;
+}
+
+h5 {
+  display: inline;
+}
+
+button {
+  padding: 5px;
+  margin-left: 12.5%;
+  size: 5px;
+  width: 75%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  border-color: white;
+  background-color: #5ba4a4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

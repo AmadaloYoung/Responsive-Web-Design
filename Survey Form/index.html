@@ -12,30 +12,146 @@
       Thank you for taking the time to help us improve the platform
     </p>
     <form id="survey-form">
-      <fieldset>
+      <fieldset class="user-information">
         <label id="name-label"
-          >name: <input id="name" type="text" required placeholder="John Doe"
+          >NAME:
+          <input
+            name="name"
+            id="name"
+            type="text"
+            required
+            placeholder="John Doe"
         /></label>
         <label id="email-label"
-          >email:
+          >EMAIL:
           <input
+            name="email"
             id="email"
             type="email"
             required
             placeholder="johndoe@gmail.com"
         /></label>
-        <label id="number-label"
-          >age:
-          <input id="number" type="number" min="13" max="120" placeholder="35"
+        <label id="number-label">
+          AGE:
+          <input
+            name="number"
+            id="number"
+            type="number"
+            min="13"
+            max="120"
+            placeholder="35"
         /></label>
       </fieldset>
+
       <fieldset>
         <legend>Which best describes your personality?</legend>
-        <select id="dropdown">
-          <option></option>
-          <option></option>
+        <select name="dropdown" id="dropdown">
+          <option>Introvert</option>
+          <option>Extrovert</option>
+          <option>Ambivert</option>
         </select>
       </fieldset>
+      <fieldset>
+        <legend>What type of person are you?</legend>
+        <label
+          ><input
+            class="inline"
+            value="indoor-person"
+            type="radio"
+            name="indoor-outdoor"
+            checked
+          />
+          Indoor</label
+        >
+        <label>
+          <input
+            class="inline"
+            value="outdoor-person"
+            type="radio"
+            name="indoor-outdoor"
+          />
+          Outdoor</label
+        >
+      </fieldset>
+      <fieldset>
+        <legend>
+          What are your hobbies?
+          <h5>(Check all that apply)</h5>
+        </legend>
+
+        <label
+          ><input
+            class="inline"
+            type="checkbox"
+            value="cooking"
+            checked
+          />Cooking</label
+        >
+        <label
+          ><input
+            class="inline"
+            type="checkbox"
+            value="reading"
+          />Reading</label
+        >
+        <label
+          ><input
+            class="inline"
+            type="checkbox"
+            value="cycling"
+          />Cycling</label
+        >
+        <label
+          ><input
+            class="inline"
+            type="checkbox"
+            value="swimming"
+          />Swimming</label
+        >
+        <label
+          ><input
+            class="inline"
+            type="checkbox"
+            value="running"
+          />Running</label
+        >
+        <label
+          ><input
+            class="inline"
+            type="checkbox"
+            value="traveling"
+          />Traveling</label
+        >
+        <label
+          ><input
+            class="inline"
+            type="checkbox"
+            value="photography"
+          />Photography</label
+        >
+        <label
+          ><input
+            class="inline"
+            type="checkbox"
+            value="fishing"
+          />Fishing</label
+        >
+        <label
+          ><input class="inline" type="checkbox" value="others" />Others</label
+        >
+      </fieldset>
+      <fieldset>
+        <legend>Tell us more about yourself;</legend>
+        <textarea
+          name="bio"
+          id="bio"
+          cols="25"
+          rows="5"
+          maxlength="400"
+          placeholder="On the weekends, I love going for solo dates..."
+        ></textarea>
+      </fieldset>
+      <button id="submit" type="submit">Submit</button>
     </form>
   </body>
 </html>
