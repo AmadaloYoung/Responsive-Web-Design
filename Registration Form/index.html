@@ -11,16 +11,17 @@
     <form action="https://register-demo.freecodecamp.org" method="post">
       <fieldset>
         <label for="first-name"
-          >Enter Your First Name: <input id="first-name" type="text"
+          >Enter Your First Name: <input id="first-name" type="text" required
         /></label>
         <label for="last-name"
-          >Enter Your Last Name: <input id="last-name" type="text"
+          >Enter Your Last Name: <input id="last-name" type="text" required
         /></label>
         <label for="email"
-          >Enter Your Email: <input id="email" type="email"
+          >Enter Your Email: <input id="email" type="email" required
         /></label>
         <label for="new-password"
-          >Create a New Password: <input id="new-password" type="password"
+          >Create a New Password:
+          <input id="new-password" type="password" required minlength="8"
         /></label>
       </fieldset>
       <fieldset></fieldset>
