@@ -15,3 +15,5 @@
 3. [CSS Color Markers](https://giggs-css-color-markers.netlify.app/)
 4. [Registration Form](https://giggs-registration-form.netlify.app/)
 5. [Survey Form](https://giggs-survey-form.netlify.app/)
+6. Rothko Painting
+7. [Photo Gallery](https://giggs-photo-gallery.netlify.app/)
