@@ -36,3 +36,12 @@ p {
   display: flex;
   justify-content: space-between;
 }
+
+.large {
+  height: 10px;
+}
+
+.large,
+.medium {
+  background-color: black;
+}
