@@ -7,4 +7,5 @@ body {
 
 #logo {
   width: max(100px, 18vw);
+  background-color: #0a0a23;
 }
