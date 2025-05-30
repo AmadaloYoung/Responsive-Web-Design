@@ -13,13 +13,24 @@ header {
 }
 
 #logo {
-  width: max(100px, 18vw);
+  width: max(10rem, 18vw);
   background-color: #0a0a23;
-  aspect-ratio: 35/4;
+  aspect-ratio: 35 / 4;
   padding: 0.4rem;
 }
 
 h1 {
   color: #f1be32;
   font-size: min(5vw, 1.2em);
+}
+
+nav {
+  width: 50%;
+  max-width: 300px;
+  height: 50px;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
 }
